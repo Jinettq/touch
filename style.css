@@ -1,0 +1,39 @@
+#pagina {
+    background-image: url("fondo.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align:center;
+    cursor: pointer;
+/*hace que la pantalla no se mueva al pasar el dedo*/
+    overflow: hidden; 
+    
+  }
+  h1
+  {
+      color: rgb(7, 0, 0); 
+      font-size: 40px;
+  }
+  #lienzo
+  {
+      border-width:10px;
+      background-color: white; 
+      border-style:ridge;
+  }
+
+  #boton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 42px;
+    font-size: 30px;
+  }
+
+  #color,#ancholinea, #span1, #span2{
+    font-size: 30px;
+  }
+
+  input
+  {
+    margin-right: 20px;
+  }
+  
