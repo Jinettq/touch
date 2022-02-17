@@ -59,7 +59,7 @@ if(ancho<992){
 
     //touchemove lee el movimiento del dedo en pantalla
 
-    function my_touchemove(e)
+    function my_touchmove(e)
     {
         
             //leemos la posicion exacta del dedo en pantalla
@@ -84,7 +84,7 @@ if(ancho<992){
         posicion_dedo_y = posicion_dedo_actual_y;
     }
 
-    canvas.addEventListener("touchemove", my_touchemove);
+    canvas.addEventListener("touchmove", my_touchmove);
     
 
 //actividad adicional
