@@ -1,6 +1,6 @@
 //borrar la variable //var mouseEvent = "vacio";//
 
-var posicion_x, posicion_y;
+var posicion_dedo_x, posicion_dedo_y;
 
     canvas = document.getElementById("lienzo");
     dibujo = canvas.getContext("2d");
@@ -69,7 +69,7 @@ if(ancho<992){
 
             //dejamos el codigo que dibuja y reconoce color y ancho
 
-            dibujo.beginPath();
+            dibujo.beginPath();  //le dice al lienzo que empiece a dibujar
             dibujo.strokeStyle = color;
             dibujo.lineWidth = ancholinea;
 
